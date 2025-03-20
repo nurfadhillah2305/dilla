@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tampilan</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        iframe {
+            width: 800px; /* Mengatur lebar iframe menjadi 800 piksel */
+            height: 450px; /* Mengatur tinggi iframe */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Audio</th>
+            <th>Video</th>
+            <th>Gambar</th>
+            <th>Keterangan</th>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="src/assets/audio.mp4" type="audio/mpeg">
+                    Browser Anda tidak mendukung elemen audio.
+                </audio>
+            </td>
+            <td>
+                <iframe src="src/assets/video.mp4" allowfullscreen></iframe>
+            </td>
+            <td>
+                <img src="src/assets/logo.jpeg" alt="Gambar" width="150">
+            </td>
+            <td>
+                <p>Nama: Nur Fadhillah Ismaya</p>
+                <p>Tempat, tanggal lahir: Medan, 23 Mei 2006</p>
+                <p>Jenis kelamin: Perempuan</p>
+                <p>Prodi: S1 INFORMATIKA</p>
+                <p>Pekerjaan: Mahasiswa</p>
+                <p>Hobi: Menonton Film</p>
+            </td>
+        </tr>
+    </table>
+
+    <h3>Konten</h3>
+    <iframe src="https://www.youtube.com/embed/PdkGSFf8keo?si=XYYryN__RtSgYWU2" allowfullscreen></iframe>
+
+    <h3>Video</h3>
+    <iframe src="https://www.youtube.com/embed/tijyybrmfsM?si=NAO6jkE7NAzvjdvh" allowfullscreen></iframe>
+
+</body>
+</html>
