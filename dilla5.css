@@ -1,0 +1,84 @@
+/* GLOBAL STYLING: MARGIN & PADDING */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+/* HEADER + MENU: BACKGROUND & FLEXBOX */
+.main-header {
+    background-color: #161b22;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    margin: 0 20px;
+}
+
+.main-menu a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION: BACKGROUND + PADDING */
+.hero {
+    background: url('https://source.unsplash.com/1600x500/?space,stars') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(22, 27, 34, 0.75);
+    padding: 30px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+/* FLEXBOX: ARTIKEL KONTEN */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    background-color: #1c2128;
+}
+
+.artikel {
+    background-color: #161b22;
+    padding: 25px;
+    margin: 10px;
+    flex: 1 1 300px;
+    border-left: 4px solid #58a6ff;
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.1);
+    border-radius: 8px;
+}
+
+/* FOOTER: BACKGROUND + PADDING */
+.footer {
+    background-color: #161b22;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
